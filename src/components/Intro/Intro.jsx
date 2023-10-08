@@ -29,10 +29,16 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Mustaf Abtidon</span>
-          <span>
+          {/* <span>
             Frontend Developer with high level of experience in web designing
             and development, producting the Quality work
-          </span>
+          </span> */}
+              <span>
+            As a highly experienced Front-End Developer, I specialize in mobile app development and web design.
+            With a passion for creating exceptional user experiences,
+            I combine creativity and technical expertise to deliver quality work that not only meets but exceeds expectations.
+             {/* Explore my portfolio to see how I bring innovation and precision to every project. */}
+            </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
